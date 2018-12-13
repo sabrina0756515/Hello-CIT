@@ -1,0 +1,10 @@
+#cat{
+  /*formatting*/
+  width: 150px;
+  height: 150px;
+  background-color: pink;
+  /*layout*/
+  position: fixed;
+right: 0;
+bottom: 0;
+}
