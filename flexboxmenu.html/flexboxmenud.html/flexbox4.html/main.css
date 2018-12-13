@@ -1,0 +1,57 @@
+html , body , main , div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border;
+  font: inherit;
+  color: inherit;
+}
+main {
+  height: 100vh;
+  border: 3px dashed red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+div {
+  height: 200px;
+  border: 1px;
+  /*flex item*/
+  flex-grow: 1;
+  flex-basis: 200px;
+  /*flexcontainer*/
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+font: 900 2rem sans-serif;
+}
+
+#s1 {
+  flex-basis: 40%;
+  background-color: black;
+}
+
+#s2 {
+  flex-basis: 40%;
+ background-color: darkblue;
+}
+
+#s3 {
+  flex-basis: 40%;
+  background-color: blue;
+}
+
+#s4 {
+  flex-basis: 20%;
+  background-color: lightblue;
+}
+#s5 {
+  flex-basis: 20%;
+  background-color: lightgrey;
+}
