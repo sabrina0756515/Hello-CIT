@@ -1,0 +1,16 @@
+* {
+  border: 2px solid black;
+}
+div {
+height: 100px;
+width: 100px;
+background-color: blue;
+color: green;
+}
+#one{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  /*formatting*/
+  background-color: yellow;
+}
