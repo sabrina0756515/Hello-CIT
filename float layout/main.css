@@ -1,0 +1,33 @@
+header, body , footer , div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+header , footer {
+  height: 200px;
+  border: 10px solid blue;
+  background-color: pink;
+
+}
+header {
+  background-color: orange;
+}
+footer {
+  background-color: purple;
+  clear: left;
+}
+div {
+  height: 250px;
+  border: 5px solid red;
+}
+#left {
+  width: 20%;
+  float: left;
+}
+#right{
+  width: 80%;
+  float: left;
+}
