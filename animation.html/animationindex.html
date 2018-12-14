@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  * { margin: 0; padding:0; }
+  #screen
+  {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 100px auto;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+  }
+
+#ballMainDiv {
+  position: absolute;
+  left: -100px;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  animation: moveMainDiv 1.3s linear infinite;
+}
+
+#ballSubDiv {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+#ball {
+  width: 100px;
+  height: 100px;
+  background: green;
+  border-radius: 50px;
+}
+
+@keyframes moveMainDiv
+{
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(1300px); }
+
+}
+@keyframes moveSubDiv
+{
+  0%, 25%, 50%, 75%, 100% { transform: translateY(-400px); animation-timing-function: ease-in;}
+  10%, 35%, 60%, 85%, { transform: translateY(0px); animation-timing-function: ease-out;}
+}
+
+@keyframes changeShape
+{
+  0%, 10%, 20%, 35%, 45%, 60%, 70%, 85%, 95%, 100% { transform: scaleX(1.0)scaleY(1.0);}
+  11%, 36%, 61%, 86% {transform: scaleX(1.4) scaleY(0.6);}
+  15%, 40%, 65%, 90% {transform: scaleX(0.6)scaleY(1.4);}
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<div id="screen">
+  <div id="ballMainDiv">
+    <div id="ballSubDiv">
+      <div id="ball"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
