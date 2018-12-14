@@ -1,0 +1,27 @@
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.text  {
+  font: 500 14px/24px "Open Sans", "HelveticaNeue-light", Sans-Serif;
+  color: #333;
+}
+
+button {
+  border: 0;
+  color: #0087cc;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointerl;
+  font: inherit;
+  margin: 0;
+  padding: 12px 20px;
+  outline: 0;
+  transition: all 1s linear;
+  }
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
